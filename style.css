@@ -6,6 +6,7 @@
 body {
     margin: 20px;
 }
+
 .banner {
     height: 400px;
     background-size: cover;
@@ -18,13 +19,63 @@ body {
 }
 
 div#festival {
-    background: url(medias/Park-accueil.jpg);
+    background-image: url(medias/Park-accueil.jpg);
 }
 
 div#stand {
-    background: url(medias/Stand-18-scaled.jpg);
+    background-image: url(medias/Stand-18-scaled.jpg);
 }
 
+div#boomerang {
+    background-image: url(medias/Boomerang.jpg);
+}
+
+
+a#park {
+    background-image: url(medias/Park.jpg);
+}
+a#dolledup {
+    background-image: url(medias/Dolled-Up.jpg);
+}
+a#lingua {
+    background-image: url(medias/Lingua-di-vacca.jpg);
+}
+a#thesevivante {
+    background-image: url(medias/These-3.jpg);
+}
+a#opera {
+    background-image: url(medias/Operas-shadows.jpg);
+}
+a#boomerang2 {
+    background-image: url(medias/Boomerang.jpg);
+}
+a#ideal {
+    background-image: url(medias/Ideal.jpg);
+}
+a#nivu {
+    background-image: url(medias/Ni-vu-ni-connu.jpg);
+}
+a#familytree {
+    background-image: url(medias/The-Family-Tree-10.jpg);
+}
+a#uptodate {
+    background-image: url(medias/Up-to-date.jpg);
+}
+a#stand2 {
+    background-image: url(medias/Stand.jpg);
+}
+a#prime {
+    background-image: url(medias/La-prime.jpg);
+}
+a#parkajd {
+    background-image: url(medias/Park-2.jpg);
+}
+a#habiter {
+    background-image: url(medias/These-2.jpg);
+}
+a#halte {
+    background-image: url(medias/Faire-une-halte-chez-Antonella.jpg);
+}
 
 h1 {
     padding: 0;
@@ -47,4 +98,152 @@ p {
     font-size: 18px;
     max-width: 500px;
     color: #e5e5e5;
+}
+
+div#works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 3%;
+    color: white;
+    font-family: 'Verdana';
+    text-align: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    backdrop-filter: sepia(1);
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    !i;
+    !;
+    
+    
+    
+    
+    !i;
+    !;
+}
+
+.title {}
+
+.title {
+    backdrop-filter: blur(15px);
+    width: -webkit-fill-available;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00000052;
+}
+
+div#pieces {
+    text-align: center;
+    font-family: 'Verdana';
+    font-size: 51px;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
