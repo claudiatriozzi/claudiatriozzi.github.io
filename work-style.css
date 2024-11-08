@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Verdana;
+    src: url(fonts/verdana.ttf);
+  }
+
+html {
+      margin: 5%;
+      font-family: 'Verdana';
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+  
+body {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+div.credits {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    white-space: pre-line;
+}
+
+h1 {
+    color: #c90000;
+    font-size: 42px;
+    text-align: center;
+}
+
+img.top {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {font-size: 17px;white-space: pre-line;}
+
+
+hr {
+    margin-top: 100px;
+}
+
+div#places {
+    margin-top: 50px;
+    white-space: pre-wrap;
+    color: gray;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+a#listen {
+    font-size: 25px;
+    color: #c90000;
+    border: 2px solid #c90000;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 25px;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    !i;
+    !;
+}
+
+.pictures {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pictures img {
+    margin: 5px;
+    width: 24em;
+}
+
+.pictures {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+img.full {
+    width: -webkit-fill-available;
+    width: 100%;
+}
+
+img.solo {
+    width: -webkit-fill-available;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+iframe {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
