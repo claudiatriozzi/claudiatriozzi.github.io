@@ -1,361 +1,181 @@
 @font-face {
-  font-family: Verdana;
-  src: url(fonts/verdana.ttf);
-}
-
-body {
-    margin: 0;
-}
-
-.banner {
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
     font-family: Verdana;
-    font-size: 40px;
-    padding: 68px;
-    margin-bottom: 25px;
-}
-
-div#festival {
-    background-image: url(medias/Park-accueil.jpg);
-}
-
-div#stand {
-    background-image: url(medias/Stand-18-scaled.jpg);
-}
-
-div#boomerang {
-    background-image: url(medias/Boomerang.jpg);
-}
-
-
-a#park {
-    background-image: url(medias/Park.jpg);
-}
-a#dolledup {
-    background-image: url(medias/Dolled-Up.jpg);
-}
-a#lingua {
-    background-image: url(medias/Lingua-di-vacca.jpg);
-}
-a#thesevivante {
-    background-image: url(medias/These-3.jpg);
-}
-a#opera {
-    background-image: url(medias/Operas-shadows.jpg);
-}
-a#boomerang2 {
-    background-image: url(medias/Boomerang.jpg);
-}
-a#ideal {
-    background-image: url(medias/Ideal.jpg);
-}
-a#nivu {
-    background-image: url(medias/Ni-vu-ni-connu.jpg);
-}
-a#familytree {
-    background-image: url(medias/The-Family-Tree-10.jpg);
-}
-a#uptodate {
-    background-image: url(medias/Up-to-date.jpg);
-}
-a#stand2 {
-    background-image: url(medias/Stand.jpg);
-}
-a#prime {
-    background-image: url(medias/La-prime.jpg);
-}
-a#parkajd {
-    background-image: url(medias/Park-2.jpg);
-}
-a#habiter {
-    background-image: url(medias/These-2.jpg);
-}
-a#halte {
-    background-image: url(medias/Faire-une-halte-chez-Antonella.jpg);
-}
-
-h1 {
-    padding: 0;
-    margin: 0;
-    font-size: 54px;
-}
-
-h2 {
-    padding: 0;
-    margin: 0;
-    color: #cfcfcf;
-    font-size: 42px;
-}
-
-h4 {
-    font-size: 33px;
-}
-
-p {
-    font-size: 18px;
-    max-width: 500px;
-    color: #e5e5e5;
-}
-
-div#works {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.work {
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin: 3%;
-    color: white;
-    font-family: 'Verdana';
-    text-align: center;
-    background-size: cover;
-    justify-content: center;
-    align-items: flex-end;
-    backdrop-filter: sepia(1);
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    !i;
-    !;
-    
-    
-    
-    
-    !i;
-    !;
-}
-
-.title {}
-
-.title {
-    backdrop-filter: blur(15px);
-    width: -webkit-fill-available;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #00000052;
-}
-
-div#pieces {
-    text-align: center;
-    font-family: 'Verdana';
-    font-size: 33px;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    text-decoration: overline;
-}
-
-div#name {
-    font-size: 60px;
-    font-family: 'Verdana';
-    color: #c30000;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.banner a {
-    text-decoration: none;
-    border: 1px solid white;
-    font-size: 18px;
-    padding: 10px;
-    color: white !important;
-    text-transform: uppercase;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    !i;
-    !;
-}
-
-.work:hover {
-    filter: sepia(2) hue-rotate(284deg);
-}
-
-footer {
-    background: #c30000;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 100px;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Verdana';
-    font-size: 14px;
-    padding: 15px;
-    color: #ffffffba;
-}
+    src: url(fonts/verdana.ttf);
+  }
+  
+  body {
+      margin: 0;
+  }
+  
+  .banner {
+      height: 400px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      font-family: Verdana;
+      font-size: 40px;
+      padding: 68px;
+      margin-bottom: 25px;
+  }
+  
+  div#festival {
+      background: url(medias/Park-accueil.jpg) right bottom no-repeat, url(medias/claudette.jpg) left bottom repeat;
+  }
+  
+  div#stand {
+      background-image: url(medias/Stand-18-scaled.jpg);
+  }
+  
+  div#boomerang {
+      background-image: url(medias/Boomerang.jpg);
+  }
+  
+  
+  a#park {
+      background-image: url(medias/Park.jpg);
+  }
+  a#dolledup {
+      background-image: url(medias/Dolled-Up.jpg);
+  }
+  a#lingua {
+      background-image: url(medias/Lingua-di-vacca.jpg);
+  }
+  a#thesevivante {
+      background-image: url(medias/These-3.jpg);
+  }
+  a#opera {
+      background-image: url(medias/Operas-shadows.jpg);
+  }
+  a#boomerang2 {
+      background-image: url(medias/Boomerang.jpg);
+  }
+  a#ideal {
+      background-image: url(medias/Ideal.jpg);
+  }
+  a#nivu {
+      background-image: url(medias/Ni-vu-ni-connu.jpg);
+  }
+  a#familytree {
+      background-image: url(medias/The-Family-Tree-10.jpg);
+  }
+  a#uptodate {
+      background-image: url(medias/Up-to-date.jpg);
+  }
+  a#stand2 {
+      background-image: url(medias/Stand.jpg);
+  }
+  a#prime {
+      background-image: url(medias/La-prime.jpg);
+  }
+  a#parkajd {
+      background-image: url(medias/Park-2.jpg);
+  }
+  a#habiter {
+      background-image: url(medias/These-2.jpg);
+  }
+  a#halte {
+      background-image: url(medias/Faire-une-halte-chez-Antonella.jpg);
+  }
+  
+  h1 {
+      padding: 0;
+      margin: 0;
+      font-size: 54px;
+  }
+  
+  h2 {
+      padding: 0;
+      margin: 0;
+      color: #cfcfcf;
+      font-size: 42px;
+  }
+  
+  h4 {
+      font-size: 33px;
+  }
+  
+  p {
+      font-size: 18px;
+      max-width: 500px;
+      color: #e5e5e5;
+  }
+  
+  div#works {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .work {
+      display: flex;
+      width: 300px;
+      height: 300px;
+      margin: 3%;
+      color: white;
+      font-family: 'Verdana';
+      text-align: center;
+      background-size: cover;
+      justify-content: center;
+      align-items: flex-end;
+      backdrop-filter: sepia(1);
+  }
+      
+  
+  
+  .title {
+      backdrop-filter: blur(15px);
+      width: -webkit-fill-available;
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #00000052;
+  }
+  
+  div#pieces {
+      text-align: center;
+      font-family: 'Verdana';
+      font-size: 33px;
+      margin-top: 150px;
+      margin-bottom: 50px;
+      font-weight: bold;
+      text-decoration: overline;
+  }
+  
+  div#name {
+      font-size: 60px;
+      font-family: 'Verdana';
+      color: #c30000;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-weight: bold;
+  }
+  
+  .banner a {
+      text-decoration: none;
+      border: 1px solid white;
+      font-size: 18px;
+      padding: 10px;
+      color: white !important;
+      text-transform: uppercase;
+  }
+  
+  .work:hover {
+      filter: sepia(2) hue-rotate(284deg);
+  }
+  
+  footer {
+      background: #c30000;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 100px;
+  }
+  
+  footer a {
+      text-decoration: none;
+      color: white;
+      font-family: 'Verdana';
+      font-size: 14px;
+      padding: 15px;
+      color: #ffffffba;
+  }
