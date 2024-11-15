@@ -19,7 +19,8 @@
   }
   
   div#festival {
-      background: url(medias/Park-accueil.jpg) right bottom no-repeat, url(medias/claudette.jpg) left bottom repeat;
+      background-image: url(medias/claudette.jpg);
+      background-size: cover;
   }
   
   div#stand {
@@ -179,3 +180,22 @@
       padding: 15px;
       color: #ffffffba;
   }
+
+div#festival h2 {
+    /* backdrop-filter: brightness(0.8); */
+    width: fit-content;
+    color: white;
+    text-shadow: 0px 0px 18px #2c2c2c;
+}
+
+h2 {}
+
+div#festival h1 {text-shadow: 0px 0px 18px #2c2c2c;}
+
+div#festival h4 {
+    text-shadow: 0px 0px 18px #2c2c2c;
+}
+
+div#festival a {
+    text-shadow: 0px 0px 18px #2c2c2c;
+}

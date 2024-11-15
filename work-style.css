@@ -11,7 +11,7 @@ html {
       align-items: center;
 }
   
-body {
+m {
     max-width: 800px;
     display: flex;
     flex-direction: column;
@@ -61,44 +61,6 @@ a#listen {
     margin-top: 25px;
 }  
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    !i;
-    !;
-}
 
 .pictures {
     display: flex;
@@ -133,4 +95,26 @@ img.solo {
 iframe {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+footer {
+    background: #c30000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    position: fixed;
+    width: -webkit-fill-available;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Verdana';
+    font-size: 14px;
+    padding: 15px;
+    color: #ffffffba;
 }

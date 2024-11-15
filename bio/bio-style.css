@@ -1,0 +1,26 @@
+div#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+img#bioimg {
+    height: fit-content;
+    width: 300px;
+}
+
+div#right {
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {max-width: 1000px;}
+
+p#intro {
+    font-weight: bold;
+}
