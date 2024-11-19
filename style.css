@@ -31,8 +31,12 @@
       background-image: url(medias/Boomerang.jpg);
   }
   
+    
+  div#park {
+    background-image: url(medias/Park.jpg);
+}
   
-  a#park {
+  a#park2 {
       background-image: url(medias/Park.jpg);
   }
   a#dolledup {
