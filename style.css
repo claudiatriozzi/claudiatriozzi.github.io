@@ -114,7 +114,7 @@
   .work {
       display: flex;
       width: 300px;
-      height: 300px;
+      height: 177px;
       margin: 3%;
       color: white;
       font-family: 'Verdana';
@@ -133,7 +133,7 @@
       width: 100%;
       padding-top: 10px;
       padding-bottom: 10px;
-      background-color: #00000052;
+      background-color: #00000030;
   }
   
   div#pieces {
@@ -147,11 +147,12 @@
   }
   
   div#name {
-      font-size: 60px;
+      font-size: 43px;
       font-family: 'Verdana';
       color: #c30000;
       margin-top: 30px;
       margin-bottom: 30px;
+      margin-left: 5px;
       font-weight: bold;
   }
   
@@ -189,15 +190,15 @@ div#festival h2 {
     /* backdrop-filter: brightness(0.8); */
     width: fit-content;
     color: white;
-    text-shadow: 0px 0px 18px #2c2c2c;
+    text-shadow: 0px 0px 18px #2c2c2c59;
 }
 
 h2 {}
 
-div#festival h1 {text-shadow: 0px 0px 18px #2c2c2c;}
+div#festival h1 {text-shadow: 0px 0px 18px #2c2c2c59;}
 
 div#festival h4 {
-    text-shadow: 0px 0px 18px #2c2c2c;
+    text-shadow: 0px 0px 18px #2c2c2c59;
 }
 
 div#festival a {
