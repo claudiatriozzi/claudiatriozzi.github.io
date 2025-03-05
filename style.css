@@ -15,12 +15,15 @@
       font-family: Verdana;
       font-size: 40px;
       padding: 68px;
-      margin-bottom: 25px;
+      margin-bottom: 12px;
   }
   
   div#festival {
       background-image: url(medias/claudette.jpg);
-      background-size: cover;
+      background-size: 480px;
+      background-position: right;
+      background-position-y: 41%;
+      background-color: red;
   }
   
   div#stand {
@@ -34,6 +37,7 @@
     
   div#park {
     background-image: url(medias/Park.jpg);
+    background-position-y: 72%;
 }
   
   a#park2 {
@@ -152,7 +156,7 @@
       color: #c30000;
       margin-top: 30px;
       margin-bottom: 30px;
-      margin-left: 5px;
+      margin-left: 20px;
       font-weight: bold;
   }
   
@@ -193,8 +197,6 @@ div#festival h2 {
     text-shadow: 0px 0px 18px #2c2c2c59;
 }
 
-h2 {}
-
 div#festival h1 {text-shadow: 0px 0px 18px #2c2c2c59;}
 
 div#festival h4 {
@@ -203,4 +205,21 @@ div#festival h4 {
 
 div#festival a {
     text-shadow: 0px 0px 18px #2c2c2c;
+}
+
+img#pourrien2 {
+    position: absolute;
+    top: 112px;
+    right: 0;
+    width: 403px;
+    height: auto;
+}
+
+img#pourrien1 {
+    position: absolute;
+    top: 112px;
+    right: 403px;
+    width: 403px;
+    height: auto;
+    z-index: 0;
 }
