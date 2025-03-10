@@ -43,32 +43,44 @@
 
 </body>
 <script>
-        async function fetchImages() {
-            try {
-                const response = await fetch('get_images.php');
-                const images = await response.json();
-                if (images.length === 0) return;
-                
-                let currentIndex = 0;
-                const slide = document.getElementById("slide");
+async function fetchImages() {
+    try {
+        const response = await fetch('/habiter-pour-creer/get_images.php');
+        const text = await response.text(); // Lire la réponse brute
 
-                function showSlide(index) {
-                    if (index >= images.length) currentIndex = 0;
-                    else if (index < 0) currentIndex = images.length - 1;
-                    else currentIndex = index;
-                    
-                    slide.src = "slideshow/" + images[currentIndex];
-                }
+        // Afficher la réponse dans la console pour voir si c'est bien du JSON
+        console.log("Réponse brute de get_images.php :", text);
 
-                window.changeSlide = function(step) {
-                    showSlide(currentIndex + step);
-                }
-                
-                showSlide(currentIndex); // Initialiser avec la première image
-            } catch (error) {
-                console.error("Erreur lors de la récupération des images :", error);
-            }
+        // Tenter de convertir en JSON
+        const images = JSON.parse(text);
+
+        if (!Array.isArray(images) || images.length === 0) {
+            console.error("Aucune image trouvée ou format de réponse invalide.");
+            return;
         }
+
+        let currentIndex = 0;
+        const slide = document.getElementById("slide");
+
+        function showSlide(index) {
+            if (index >= images.length) currentIndex = 0;
+            else if (index < 0) currentIndex = images.length - 1;
+            else currentIndex = index;
+            
+            slide.src = "/habiter-pour-creer/slideshow/" + images[currentIndex];
+        }
+
+        window.changeSlide = function(step) {
+            showSlide(currentIndex + step);
+        }
+        
+        showSlide(currentIndex); // Initialiser avec la première image
+
+    } catch (error) {
+        console.error("Erreur lors de la récupération des images :", error);
+    }
+}
+
 
         fetchImages();
 </script>
