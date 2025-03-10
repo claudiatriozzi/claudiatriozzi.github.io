@@ -27,7 +27,7 @@ div.credits {
 
 h1 {
     color: #c90000;
-    font-size: 42px;
+    font-size: 37px;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ img.top {
     margin-bottom: 50px;
 }
 
-p {font-size: 17px;white-space: pre-line;}
+p {font-size: 17px;white-space: pre-line;line-height: 23px;text-align: justify;}
 
 
 hr {
@@ -122,6 +122,7 @@ footer a {
 h2 {
     justify-self: center;
     color: #c90000;
+    font-size: 20px;
 }
 
 
