@@ -123,3 +123,36 @@ h2 {
     justify-self: center;
     color: #c90000;
 }
+
+/** Slideshow **/
+
+
+.slideshow-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: none;
+    border-radius: 10px;
+    transition: opacity 0.5s;
+}
+.active {
+    display: block;
+    opacity: 1;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.prev { left: 10px; }
+.next { right: 10px; }
