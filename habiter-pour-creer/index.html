@@ -19,16 +19,7 @@
       <button class="next" onclick="changeSlide(1)">&#10095;</button>
   </div> 
 
-   <p>À l’occasion de l’exposition JEUX, RITUELS ET RÉCRÉATIONS et des 40 ans du Centre Pompidou, l’Hotel est confié
-      à Claudia Triozzi, artiste et chorégraphe. « Fare quello che si può », faire ce que l’on peut avec peu de
-      moyens, des éléments pauvres. Claudia Triozzi invite Nydia Solis Tzaquil, constructrice terre/paille pour
-      transmettre une pédagogie du faire et de l’autre (de l’attention à l’autre), en somme, à habiter un lieu à
-      l’intérieur duquel un possible savoir pourra se bâtir et se diffuser ailleurs, dans d’autres lieux. Dans cette
-      proposition intitulée Habiter pour créer, l’Hotel Europa devient un atelier dont la temporalité est toute
-      entière réglée par le « faire », un site de construction et de jeu. À la croisée de divers savoirs techniques
-      et culturels, puisant à une tradition ancienne particulièrement développée en Afrique du Nord, l’artiste invite le
-      public à participer à des ateliers de construction terre/paille avec la collaboration de Nydia Solis Tzaquil
-      (Femmes de Boue – Construction terre/paille).
+   <p>À l’occasion de l’exposition JEUX, RITUELS ET RÉCRÉATIONS et des 40 ans du Centre Pompidou, l’Hotel est confié à Claudia Triozzi, artiste et chorégraphe. « Fare quello che si può », faire ce que l’on peut avec peu de moyens, des éléments pauvres. Claudia Triozzi invite Nydia Solis Tzaquil, constructrice terre/paille pour transmettre une pédagogie du faire et de l’autre (de l’attention à l’autre), en somme, à habiter un lieu à l’intérieur duquel un possible savoir pourra se bâtir et se diffuser ailleurs, dans d’autres lieux. Dans cette proposition intitulée Habiter pour créer, l’Hotel Europa devient un atelier dont la temporalité est toute entière réglée par le « faire », un site de construction et de jeu. À la croisée de divers savoirs techniques et culturels, puisant à une tradition ancienne particulièrement développée en Afrique du Nord, l’artiste invite le public à participer à des ateliers de construction terre/paille avec la collaboration de Nydia Solis Tzaquil (Femmes de Boue – Construction terre/paille).
    </p>
 
    <div class="credits">
@@ -45,7 +36,7 @@
 <script>
 async function fetchImages() {
     try {
-        const response = await fetch('get_images.php');
+        const response = await fetch('../get_images.php');
         const text = await response.text(); // Lire la réponse brute
 
         // Afficher la réponse dans la console pour voir si c'est bien du JSON

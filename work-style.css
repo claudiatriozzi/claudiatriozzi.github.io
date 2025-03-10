@@ -133,7 +133,7 @@ h2 {
     max-width: 800px;
     margin-bottom: 50px;
 }
-img {
+.slideshow-container img {
     width: 100%;
     height: auto;
     display: none;
