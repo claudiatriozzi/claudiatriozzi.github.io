@@ -45,7 +45,7 @@
 <script>
 async function fetchImages() {
     try {
-        const response = await fetch('/habiter-pour-creer/get_images.php');
+        const response = await fetch('get_images.php');
         const text = await response.text(); // Lire la réponse brute
 
         // Afficher la réponse dans la console pour voir si c'est bien du JSON
@@ -67,7 +67,7 @@ async function fetchImages() {
             else if (index < 0) currentIndex = images.length - 1;
             else currentIndex = index;
             
-            slide.src = "/habiter-pour-creer/slideshow/" + images[currentIndex];
+            slide.src = "slideshow/" + images[currentIndex];
         }
 
         window.changeSlide = function(step) {
