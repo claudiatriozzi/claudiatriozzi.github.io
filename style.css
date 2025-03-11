@@ -223,3 +223,7 @@ img#pourrien1 {
     height: auto;
     z-index: 0;
 }
+
+a#pour-rien {
+    background-image: url(medias/claudette.jpg);
+}
