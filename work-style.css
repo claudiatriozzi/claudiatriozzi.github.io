@@ -27,8 +27,7 @@ div.credits {
 
 h1 {
     color: #c90000;
-    font-size: 37px;
-    text-align: center;
+    font-size: 27px;
 }
 
 img.top {
@@ -37,7 +36,7 @@ img.top {
     margin-bottom: 50px;
 }
 
-p {font-size: 17px;white-space: pre-line;line-height: 23px;text-align: justify;}
+p {font-size: 17px;line-height: 23px;text-align: justify;}
 
 
 hr {
@@ -122,7 +121,7 @@ footer a {
 h2 {
     justify-self: center;
     color: #c90000;
-    font-size: 20px;
+    font-size: 27px;
 }
 
 
@@ -173,7 +172,7 @@ img.show {
 }
 
 .next {
-    right: 0;
+    right: 0px;
     border-radius: 3px 0 0 3px;
 }
 
@@ -187,3 +186,16 @@ video {
     width: 100%;
     margin: 50px;
 }
+
+audio {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+div#title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+br {}
