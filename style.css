@@ -23,7 +23,7 @@
       background-size: 480px;
       background-position: right;
       background-position-y: 41%;
-      background-color: red;
+      background-color: #c30000;
   }
   
   div#stand {
@@ -40,51 +40,6 @@
     background-position-y: 72%;
 }
   
-  a#park2 {
-      background-image: url(medias/Park.jpg);
-  }
-  a#dolledup {
-      background-image: url(medias/Dolled-Up.jpg);
-  }
-  a#lingua {
-      background-image: url(medias/Lingua-di-vacca.jpg);
-  }
-  a#thesevivante {
-      background-image: url(medias/These-3.jpg);
-  }
-  a#opera {
-      background-image: url(medias/Operas-shadows.jpg);
-  }
-  a#boomerang2 {
-      background-image: url(medias/Boomerang.jpg);
-  }
-  a#ideal {
-      background-image: url(medias/Ideal.jpg);
-  }
-  a#nivu {
-      background-image: url(medias/Ni-vu-ni-connu.jpg);
-  }
-  a#familytree {
-      background-image: url(medias/The-Family-Tree-10.jpg);
-  }
-  a#uptodate {
-      background-image: url(medias/Up-to-date.jpg);
-  }
-  a#stand2 {
-      background-image: url(medias/Stand.jpg);
-  }
-  a#prime {
-      background-image: url(medias/La-prime.jpg);
-  }
-  a#parkajd {
-      background-image: url(medias/Park-2.jpg);
-  }
-  a#habiter {
-      background-image: url(medias/These-2.jpg);
-  }
-  a#halte {
-      background-image: url(medias/Faire-une-halte-chez-Antonella.jpg);
-  }
   
   h1 {
       padding: 0;
@@ -118,26 +73,29 @@
   .work {
       display: flex;
       width: 300px;
-      height: 177px;
+      height: 225px;
       margin: 3%;
       color: white;
       font-family: 'Verdana';
       text-align: center;
       background-size: cover;
       justify-content: center;
-      align-items: flex-end;
+      align-items: center;
       backdrop-filter: sepia(1);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: white;
+      flex-direction: column;
   }
       
   
   
   .title {
-      backdrop-filter: blur(15px);
       width: -webkit-fill-available;
       width: 100%;
-      padding-top: 10px;
+      margin-top: 11px;
       padding-bottom: 10px;
-      background-color: #00000030;
+      color: #c30000;
   }
   
   div#pieces {
@@ -148,6 +106,7 @@
       margin-bottom: 50px;
       font-weight: bold;
       text-decoration: overline;
+      color: #cb2323;
   }
   
   div#name {
@@ -170,7 +129,7 @@
   }
   
   .work:hover {
-      filter: sepia(2) hue-rotate(284deg);
+      filter: sepia(2) hue-rotate(210deg);
   }
   
   footer {
@@ -224,6 +183,13 @@ img#pourrien1 {
     z-index: 0;
 }
 
-a#pour-rien {
-    background-image: url(medias/claudette.jpg);
+
+.work img {
+    width: auto;
+    height: 158px;
+}
+
+img#claudette {
+    height: 158px;
+    width: auto;
 }

@@ -94,6 +94,8 @@ img.solo {
 iframe {
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 67vw;
+    height: 53vw;
 }
 
 footer {
@@ -199,3 +201,7 @@ div#title {
 }
 
 br {}
+
+b {
+    color: red;
+}
