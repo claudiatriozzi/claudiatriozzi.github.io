@@ -36,7 +36,7 @@ img.top {
     margin-bottom: 50px;
 }
 
-p {font-size: 17px;line-height: 23px;text-align: justify;}
+p {font-size: 17px;line-height: 23px;text-align: justify;display: flex;flex-direction: column;margin-bottom: 0;align-items: center;}
 
 
 hr {
@@ -134,8 +134,8 @@ h2 {
 .slideshow-container {
     position: relative;
     max-width: inherit;
-    overflow: hidden;
-    margin-bottom: 50px;
+    /* overflow: hidden; */
+    margin-bottom: 14px;
     margin-top: 30px;
 }
 
@@ -147,7 +147,7 @@ h2 {
 
 .image-container img {
     width: auto;
-    height: 500px;
+    height: 465px;
     display: none;
 }
 
@@ -169,12 +169,12 @@ img.show {
 }
 
 .prev {
-    left: 0;
+    left: -80px;
     border-radius: 3px 0 0 3px;
 }
 
 .next {
-    right: 0px;
+    right: -80px;
     border-radius: 3px 0 0 3px;
 }
 
@@ -191,6 +191,7 @@ video {
 
 audio {
     margin-bottom: 50px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -203,5 +204,39 @@ div#title {
 br {}
 
 b {
-    color: red;
+    color: #c30000;
+}
+
+p img {
+    width: 500px;
+}
+
+.subtitle {
+    color: #c30000;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #c30000;
+}
+
+p img {
+    max-height: 453px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.question {
+    color: #c30000;
+    width: 100%;
+    margin-top: 19px;
+    margin-bottom: -13px;
+    font-size: 17px;
+}
+
+p:first-of-type {
+    margin-top: 50px;
 }
